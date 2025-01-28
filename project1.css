@@ -1,0 +1,387 @@
+
+.image-container {
+  position: relative;
+  width: 100%; 
+  height:600px;
+  justify-items: center;
+  align-items: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.blurred-image {
+  background-size:cover ;
+  width:100%;
+  height:850px;
+  
+}
+button {
+  width:120px;
+  background-color: rgb(138, 138, 238);
+  color:black;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+button:hover{
+  background-color:coral;
+}
+.image-container .heading {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 80px;
+  font-style: poppins;
+  font-weight: bold;
+  text-align: center;
+}
+header{
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content:space-around;
+  padding: 10px 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width:97.5%;
+  font-size : 10px;
+}
+.logo{
+  position: fixed;
+  top: 73px; 
+  left:18px; 
+  width:80px; 
+  height: auto;
+  z-index: 1000;
+  border-radius: 50%;
+}
+.header {
+  float: left;
+  display: block;
+  color:white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 18px;
+}
+.page a{
+  font-size:80px;
+  color:white;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.topic{
+   display:flex;
+}
+.head1{
+  background-image:url("https://t3.ftcdn.net/jpg/01/86/35/50/360_F_186355025_QIDaOSxmPb3qZvmHsdr3IgGv3pzGANuR.jpg");
+  color:black;
+  height:200px;
+  width:325px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:40px;
+  padding-top:120px;
+  font-weight: 800;
+  margin-right:18px;
+  margin-left:15px;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.head2{
+  background-image:url("https://media.istockphoto.com/id/1450094329/photo/colorful-sunset-viewed-from-the-pink-sea-beach-with-soft-waves.jpg?s=612x612&w=0&k=20&c=_Eb1qwBuf2-D7wI5-jzwkHm5TwTzD5JYl5WxpM3nlLM=");
+  color:white;
+  height:200px;
+  width:325px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:40px;
+  font-weight: 800;
+  padding-top:120px;
+  margin-right:18px;
+  margin-left:15px;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.head3{
+  background-image:url("https://fairgaze.com/images/UploadedImages/thumbs/0309134_0309134_xasdiihbb.jpg");
+  color:black;
+  height:200px;
+  width:325px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:40px;
+  padding-top:120px;
+  font-weight: 800;
+  margin-right:18px;
+  margin-left:15px;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.head4{
+  background-image:url("https://rewildingeurope.com/wp-content/uploads/2021/11/RS1765_SBA_2011-07-30_070027-low.jpg");
+  color:white;
+  height:200px;
+  width:325px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:40px;
+  padding-top:120px;
+  font-weight: 800;
+  margin-right:18px;
+  margin-left:15px;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.head5{
+  background-image:url("https://img.etimg.com/thumb/msid-100307288,width-480,height-360,imgsize-125730,resizemode-75/dal-lake.jpg");
+  color:black;
+  height:200px;
+  width:325px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:40px;
+  font-weight: 800;
+  padding-top:120px;
+  margin-right:18px;
+  margin-left:15px;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.head1:hover {
+  width:400px;
+  height:250px;
+text-transform: uppercase;
+}
+.head2:hover {
+  width:400px;
+  height:250px;
+  text-transform: uppercase;
+}
+.head3:hover {
+  width:400px;
+  height:250px;
+  text-transform: uppercase;
+}
+.head4:hover {
+  width:400px;
+height:250px;
+text-transform: uppercase;
+}
+.head5:hover {
+  width:400px;
+  height:250px;
+  text-transform: uppercase;
+}
+.why {
+   padding-left:370px;
+   height:300px;
+   width:750px;
+   text-align: center;
+}
+.why h3{
+  text-align: center;
+  font-size:50px;
+  font-weight: 300;
+}
+
+.why h3:hover {
+  color: coral;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.why p{
+  margin-top: 60px;
+   margin-bottom: 60px;
+   margin-left: 60px;
+   margin-right: 60px;
+   font-size: 25px;
+}
+
+.why p:hover{
+  color: rgb(250, 169, 140);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.icon {
+   padding-top:
+}
+footer {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:white;
+  width:100%;
+  height:100px;
+  display:flex;
+  padding : 20px;
+  font-size: 25px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  background-color: #8fb2d7;
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-bar:focus {
+  outline: none;
+  box-shadow: 0 0 5px #007bff;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.blog h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.blog article {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.blog article h3 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.blog article p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.blog article a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog article a:hover {
+  text-decoration: underline;
+}
+
+.gallery {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.gallery h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.testimonials {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+  font-size: 18px;
+  font-style: italic;
+  color: #555;
+  margin: 20px auto;
+  line-height: 1.6;
+  position: relative;
+}
+
+.testimonials blockquote::before {
+  
+  font-size: 50px;
+  color: #007bff;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+ 
+}
+
+.testimonials blockquote span {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+

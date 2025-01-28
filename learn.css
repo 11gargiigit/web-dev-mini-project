@@ -1,0 +1,18 @@
+.cards {
+width:30%;
+background-color: aliceblue;
+margin:40px;
+}
+.image img{
+  width:100%;
+  
+}
+.title{
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+}
+.des{
+  text-align: center;
+}
+ 

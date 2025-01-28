@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding:0;
+  background-repeat: no-repeat;
+}
+body{
+  background-image: url("https://images.pexels.com/photos/16411959/pexels-photo-16411959/free-photo-of-colorful-houses-along-canal-on-burano-island.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  margin: 100px;
+  padding: 20px;
+  margin-top:15px;
+  align-items: center;
+  height:550px;
+  width:fit-content;
+  background-color:  rgb(246, 229, 231);
+  margin-bottom: 2px;
+}
+.info h1{
+margin-bottom:5px;
+}
+
+.info p{
+font-size: medium;
+text-align: center;
+padding-top: 50px;
+}
+h1{
+  padding-top: 50px;
+  text-align: center; 
+  
+}
+h2{
+  text-align:left;
+  display: inline-block;
+}
